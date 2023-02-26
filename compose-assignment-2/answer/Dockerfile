@@ -1,4 +1,4 @@
-FROM drupal:9.3.13
+FROM drupal:9.3.13@sha256:bd2ac171077f1a3379e9f317414670f761b0ab970f819190595b4a7dad930899
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
