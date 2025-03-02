@@ -4,7 +4,7 @@
 #       to match the latest standards from docker hub... but it's doing the same thing as the video
 #       describes
 
-FROM debian:bullseye-slim
+FROM debian:bullseye-slim@sha256:7acda01e55b086181a6fa596941503648e423091ca563258e2c1657d140355b1
 # all images must have a FROM
 # usually from a minimal Linux distribution like debian or (even better) alpine
 # if you truly want to start with an empty container, use FROM scratch
